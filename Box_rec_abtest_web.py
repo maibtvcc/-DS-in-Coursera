@@ -41,7 +41,7 @@ password = acc_cfg['password']
 
 d=datetime.now() - timedelta(days=1)
 
-if domain in (['kenh14']):
+if domain in (['kenh14','soha']):
     config = {
         'hosts': #server and port
         }
