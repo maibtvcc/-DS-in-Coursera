@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# this task is used to ELT data and push results to data warehouse
 
 import numpy as np
 import pandas as pd
