@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# this task is used to ELT data and push results to data warehouse
+# this task is used to ELT, summary data and push results to data warehouse
 
 import numpy as np
 import pandas as pd
@@ -148,8 +148,8 @@ def get_all_log(domain):
     return df_box,user_active
 
 config = {
-      'hosts': [ ('10.3.50.138', 11000),('10.3.48.161', 11000),('10.3.51.160', 11000),('10.3.48.248', 11000) ]
-    }
+      'hosts': [ (..., ...),(..., ...),(..., ...),(..., ...) ]
+    } # host of aerospike
 client = aerospike.client(config).connect()
 
 def get_df_all(domain,box_test):
